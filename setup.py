@@ -7,8 +7,10 @@ setup(
     url='https://github.build.ge.com/CoreTechAutomation/scalrapi',
     author='Joshua Thornton',
     author_email='joshua.thornton@ge.com',
+    packages=['scalrapi'],
     install_requires=[
         'pytz',
         'requests'
-    ]
+    ],
+    zip_safe=False
 )
