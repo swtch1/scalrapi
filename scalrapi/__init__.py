@@ -1,2 +1,1 @@
-from scalrapi.api import Api
-
+from scalrapi.api import *
